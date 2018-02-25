@@ -1,0 +1,22 @@
+#hero {
+  background: #ff1d10;
+}
+
+#hero .text {
+  color: #fff;
+}
+
+#hero .image img {
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  margin-left: -14px;
+}
+
+@media (max-width: 767px) {
+  #hero .image img {
+    width: 100px;
+    height: auto;
+    margin-left: -5px;
+  }
+}
